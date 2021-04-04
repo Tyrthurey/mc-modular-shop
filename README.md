@@ -1,0 +1,2 @@
+# mc-modular-shop
+Made for the Zenysis server, this is a shop datapack that can easily be set up and put to use. It is also incredibly easy to move around inside the sell-signs inside the game world with just a kill nearby armor stands command ("/kill @e[type=armor_stand,distance=..3]") and placing the appropriate spawn egg at the new location. Made for 1.17+ but possible to use in older versions until maybe 1.12.x although not tested.
