@@ -9,10 +9,13 @@ To setup the sell hopper type:
 - "/function shop:sellshop-spawnegg"
 and place the spawn egg where you want the hopper to appear (it will replace whatever block is at that location and 1 block above it so be careful.)
 
-To setup a sign type: 
+To setup a buy sign type: 
 - "/function shop:sign-spawn-eggs/netherite-sign-spawn" for Netherite Buy Sign Spawn Eggs
 - "/function shop:sign-spawn-eggs/netherstar-sign-spawn" for Nether Star Buy Sign Spawn Eggs
 - "/function shop:sign-spawn-eggs/dragonegg-sign-spawn" for Dragon Egg Buy Sign Spawn Eggs
+
+To setup a sell sign type:
+- "/function shop:sign-spawn-eggs/sell-sign-spawn"
 
 Then, just place the egg on the block you want the sign to be on (don't place on corners, it may not be placed in the direction you want it to, place on a straight wall and then build a corner).
 IMPORTANT!: Only use each spawn egg ONCE otherwise the shop will not function correctly (for example, use the "Netherite Buy Sign 1" spawn egg once, then use "Netherite Buy Sign 2" and so on.). You may only use the same egg again if you /kill the invisible armor stand at that location and destroy the sign.
