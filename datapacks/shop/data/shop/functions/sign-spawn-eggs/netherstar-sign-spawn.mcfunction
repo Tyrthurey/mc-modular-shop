@@ -26,8 +26,8 @@
 # - Star-Sign-[1 to 10]
 # - DEggS-Place-[1 to 10]
 # - DEgg-Sign-[1 to 10]
-# - 
-# - 
+# - ZP-ConverterS-Place-[1 to 10]
+# - ZP-Converter-Sign-[1 to 10]
 # - RBlock-Placer-[1 to 10]    (May not be used, maybe delete or leave for something else, its still a good module)
 # - Red-Block-[1 to 10]        (May not be used, maybe delete or leave for something else, its still a good module)
 

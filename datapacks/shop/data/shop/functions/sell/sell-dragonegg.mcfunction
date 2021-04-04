@@ -31,9 +31,7 @@
 # - RBlock-Placer-[1 to 10]    (May not be used, maybe delete or leave for something else, its still a good module)
 # - Red-Block-[1 to 10]        (May not be used, maybe delete or leave for something else, its still a good module)
 
-
-scoreboard objectives add ZPoints dummy
-
-scoreboard objectives add ShopBuyTrigger dummy
-
-scoreboard objectives add ShopSellTrigger dummy
+#Sell Dragon Egg
+execute at @e[tag=ZPoint-Converter] if block ~ ~ ~ hopper{Items:[{id:"minecraft:dragon_egg", Count:1b, Slot:0b}]} run msg @p 1 Dragon Egg Accepted - 1750 Points Added
+execute at @e[tag=ZPoint-Converter] if block ~ ~ ~ hopper{Items:[{id:"minecraft:dragon_egg", Count:1b, Slot:0b}]} run scoreboard players add @p ZPoints 1750
+execute at @e[tag=ZPoint-Converter] if block ~ ~ ~ hopper{Items:[{id:"minecraft:dragon_egg", Count:1b, Slot:0b}]} run data merge block ~ ~ ~ {Items:[{Slot:0b, id:"air", Count:35b}]}
