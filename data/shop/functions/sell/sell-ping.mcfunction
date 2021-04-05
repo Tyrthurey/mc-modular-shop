@@ -33,15 +33,15 @@
 
 #Sell netherite (new idea)
 
-execute at @e[tag=ZP-Converter-Sign-1] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-2] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-3] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-4] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-5] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-6] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-7] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-8] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-9] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-10] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-11] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
-execute at @e[tag=ZP-Converter-Sign-12] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
+execute at @e[tag=ZP-Converter-Sign-1] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-2] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-3] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-4] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-5] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-6] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-7] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-8] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-9] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-10] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-11] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=ZP-Converter-Sign-12] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
