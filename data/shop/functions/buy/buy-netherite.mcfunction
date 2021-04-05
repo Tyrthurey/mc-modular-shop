@@ -105,7 +105,7 @@ execute if score Database ShopBuyTrigger matches 10 at @e[tag=Nether-Sign-10] if
 
 
 #Ping!
-execute if score Database ShopBuyTrigger matches 1 at @e[tag=Nether-Sign-3] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-3] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 execute if score Database ShopBuyTrigger matches 2 at @e[tag=Nether-Sign-4] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 execute if score Database ShopBuyTrigger matches 3 at @e[tag=Nether-Sign-5] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 execute if score Database ShopBuyTrigger matches 4 at @e[tag=Nether-Sign-6] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
