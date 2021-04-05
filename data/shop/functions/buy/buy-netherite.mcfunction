@@ -39,6 +39,7 @@ execute if score Database ShopBuyTrigger matches 1 at @e[tag=Nether-Sign-1] if s
 execute if score Database ShopBuyTrigger matches 1 at @e[tag=Nether-Sign-1] if score @p[tag=Buyer] ZPoints matches 500.. run msg @p[tag=Buyer] Transaction Successful! 500 ZPoints Taken.
 execute if score Database ShopBuyTrigger matches 1 at @e[tag=Nether-Sign-1] if score @p[tag=Buyer] ZPoints matches 500.. run give @p[tag=Buyer] netherite_ingot 1
 execute if score Database ShopBuyTrigger matches 1 at @e[tag=Nether-Sign-1] if score @p[tag=Buyer] ZPoints matches 500.. run scoreboard players remove @p[tag=Buyer] ZPoints 500
+execute at @e[tag=Nether-Sign-1] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 execute if score Database ShopBuyTrigger matches 1 at @e[tag=Nether-Sign-1] run tag @p[tag=Buyer] remove Buyer
 execute if score Database ShopBuyTrigger matches 1 run scoreboard players set Database ShopBuyTrigger 0
 
@@ -47,6 +48,7 @@ execute if score Database ShopBuyTrigger matches 2 at @e[tag=Nether-Sign-2] if s
 execute if score Database ShopBuyTrigger matches 2 at @e[tag=Nether-Sign-2] if score @p[tag=Buyer] ZPoints matches 500.. run msg @p[tag=Buyer] Transaction Successful! 500 ZPoints Taken.
 execute if score Database ShopBuyTrigger matches 2 at @e[tag=Nether-Sign-2] if score @p[tag=Buyer] ZPoints matches 500.. run give @p[tag=Buyer] netherite_ingot 1
 execute if score Database ShopBuyTrigger matches 2 at @e[tag=Nether-Sign-2] if score @p[tag=Buyer] ZPoints matches 500.. run scoreboard players remove @p[tag=Buyer] ZPoints 500
+execute at @e[tag=Nether-Sign-2] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 execute if score Database ShopBuyTrigger matches 2 at @e[tag=Nether-Sign-2] run tag @p[tag=Buyer] remove Buyer
 execute if score Database ShopBuyTrigger matches 2 run scoreboard players set Database ShopBuyTrigger 0
 
@@ -115,8 +117,8 @@ execute if score Database ShopBuyTrigger matches 10 at @e[tag=Nether-Sign-10] ru
 execute if score Database ShopBuyTrigger matches 10 run scoreboard players set Database ShopBuyTrigger 0
 
 #Ping!
-execute at @e[tag=Nether-Sign-1] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-2] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+
+
 execute at @e[tag=Nether-Sign-3] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 execute at @e[tag=Nether-Sign-4] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 execute at @e[tag=Nether-Sign-5] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
