@@ -1,4 +1,6 @@
 #REDSTONE BLOCK PLACER STUFF SECTION
+#Made by Tyrthurey
+#Apparently useless with functions but fun for building neon signs...
 
 execute at @e[tag=RBlock-Placer-1] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["Red-Block-1"],CustomName:'{"text":"Redstone Block 1"}'}
 execute at @e[tag=RBlock-Placer-2] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["Red-Block-2"],CustomName:'{"text":"Redstone Block 2"}'}
