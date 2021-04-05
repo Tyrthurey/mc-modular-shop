@@ -72,3 +72,5 @@ execute if score Database ShopSellTrigger matches 9 at @e[tag=ZP-Converter-Sign-
 execute if score Database ShopSellTrigger matches 10 at @e[tag=ZP-Converter-Sign-10] run msg @p[tag=Seller,nbt={SelectedItem:{id:"minecraft:netherite_ingot"}}] 1 Netherite Ingot Accepted - 500 Points Added
 execute if score Database ShopSellTrigger matches 10 at @e[tag=ZP-Converter-Sign-10] run scoreboard players add @p[tag=Seller,nbt={SelectedItem:{id:"minecraft:netherite_ingot"}}] ZPoints 500
 execute if score Database ShopSellTrigger matches 10 at @e[tag=ZP-Converter-Sign-10] run clear @p[tag=Seller,nbt={SelectedItem:{id:"minecraft:netherite_ingot"}}] netherite_ingot 1
+
+execute as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 2
