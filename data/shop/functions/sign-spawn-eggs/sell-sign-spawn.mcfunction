@@ -6,16 +6,16 @@
 
 
 # NOTES
-# 
+#
 # If something breaks reset the scoreboard:
 # scoreboard players set Database ShopBuyTrigger 0
-# 
-# 
+#
+#
 # 1-10 is Netherite Buy
 # 11-20 is Nether Star Buy
 # 21-30 is Dragon Egg Buy
-# 
-# 
+#
+#
 # Tags used:
 # - Buyer
 # - ZPoint-C-Creator
@@ -43,7 +43,7 @@ give @p silverfish_spawn_egg{display:{Name:'{"text":"Sell Sign 7","color":"gold"
 give @p silverfish_spawn_egg{display:{Name:'{"text":"Sell Sign 8","color":"gold"}',Lore:['{"text":"Place on wall where you want a Sell sign.","color":"gold","bold":true}']},HideFlags:31,Enchantments:[{}],EntityTag:{NoGravity:1b,Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["ZP-ConverterS-Place-8"]}} 1
 give @p silverfish_spawn_egg{display:{Name:'{"text":"Sell Sign 9","color":"gold"}',Lore:['{"text":"Place on wall where you want a Sell sign.","color":"gold","bold":true}']},HideFlags:31,Enchantments:[{}],EntityTag:{NoGravity:1b,Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["ZP-ConverterS-Place-9"]}} 1
 give @p silverfish_spawn_egg{display:{Name:'{"text":"Sell Sign 10","color":"gold"}',Lore:['{"text":"Place on wall where you want a Sell sign.","color":"gold","bold":true}']},HideFlags:31,Enchantments:[{}],EntityTag:{NoGravity:1b,Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["ZP-ConverterS-Place-10"]}} 1
-
+give @p silverfish_spawn_egg{display:{Name:'{"text":"Sell Sign 11","color":"gold"}',Lore:['{"text":"Place on wall where you want a Sell sign.","color":"gold","bold":true}']},HideFlags:31,Enchantments:[{}],EntityTag:{NoGravity:1b,Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["ZP-ConverterS-Place-11"]}} 1
 #Infinitely more can be added as needed.
 #Just make sure to update the other files or
 #the eggs after 10 will be useless.
