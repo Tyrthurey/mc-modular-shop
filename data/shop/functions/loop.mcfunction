@@ -6,16 +6,16 @@
 
 
 # NOTES
-# 
+#
 # If something breaks reset the scoreboard:
 # scoreboard players set Database ShopBuyTrigger 0
-# 
-# 
+#
+#
 # 1-10 is Netherite Buy
 # 11-21 is Nether Star Buy
 # 22-32 is Dragon Egg Buy
-# 
-# 
+#
+#
 # Tags used:
 # - Buyer
 # - ZPoint-C-Creator
@@ -64,6 +64,8 @@ function shop:sell/sell-dragonegg
 function shop:sell/sell-netherstar-sign
 function shop:sell/sell-netherite-sign
 function shop:sell/sell-dragonegg-sign
+#Nice Ping Sound Because its satisfying
+function shop:sell/sell-ping
 #Important!: The next function must *always* be underneath all the sell-{item}-sign functions.
 function shop:sell/seller-tag-remove
 
