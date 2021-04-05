@@ -115,17 +115,17 @@ execute if score Database ShopBuyTrigger matches 10 at @e[tag=Nether-Sign-10] ru
 execute if score Database ShopBuyTrigger matches 10 run scoreboard players set Database ShopBuyTrigger 0
 
 #Ping!
-execute at @e[tag=Nether-Sign-1] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-2] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-3] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-4] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-5] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-6] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-7] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-8] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-9] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-10] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-11] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
-execute at @e[tag=Nether-Sign-12] as @p[tag=Seller] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-1] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-2] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-3] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-4] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-5] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-6] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-7] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-8] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-9] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-10] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-11] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
+execute at @e[tag=Nether-Sign-12] as @p[tag=Buyer] run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1
 
 #END OF NETHERITE BUY SIGN SUBSECTION
