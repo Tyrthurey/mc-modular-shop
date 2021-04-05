@@ -45,6 +45,7 @@ execute at @e[tag=ZP-ConverterS-Place-9] run summon armor_stand ~ ~ ~ {CustomNam
 #Number 10 will be used for testing purposes, do not use in other places.
 execute at @e[tag=ZP-ConverterS-Place-10] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["ZP-Converter-Sign-10"],CustomName:'{"text":"Converter Sign 10"}'}
 execute at @e[tag=ZP-ConverterS-Place-11] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["ZP-Converter-Sign-11"],CustomName:'{"text":"Converter Sign 11"}'}
+execute at @e[tag=ZP-ConverterS-Place-12] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["ZP-Converter-Sign-12"],CustomName:'{"text":"Converter Sign 12"}'}
 
 
 #Kill entity with tag ZP-ConverterS-Place-[number 1 to 10]
@@ -60,6 +61,7 @@ kill @e[tag=ZP-ConverterS-Place-9]
 #Number 10 will be used for testing purposes, do not use in other places.
 kill @e[tag=ZP-ConverterS-Place-10]
 kill @e[tag=ZP-ConverterS-Place-11]
+kill @e[tag=ZP-ConverterS-Place-12]
 
 #Place a sign at the position of all entities with the ZP-Converter-Sign-[number 1 to 10] tag.
 #IMPORTANT: There should only be ONE entity with each tag in the world (basically a max of 10 entities ranging from 1 to 10)
@@ -119,6 +121,11 @@ execute at @e[tag=ZP-Converter-Sign-11] unless block ~1 ~ ~ air run setblock ~ ~
 execute at @e[tag=ZP-Converter-Sign-11] unless block ~ ~ ~-1 air run setblock ~ ~ ~ minecraft:oak_wall_sign[facing=south]
 execute at @e[tag=ZP-Converter-Sign-11] unless block ~-1 ~ ~ air run setblock ~ ~ ~ minecraft:oak_wall_sign[facing=east]
 
+execute at @e[tag=ZP-Converter-Sign-12] unless block ~ ~ ~1 air run setblock ~ ~ ~ minecraft:oak_wall_sign[facing=north]
+execute at @e[tag=ZP-Converter-Sign-12] unless block ~1 ~ ~ air run setblock ~ ~ ~ minecraft:oak_wall_sign[facing=west]
+execute at @e[tag=ZP-Converter-Sign-12] unless block ~ ~ ~-1 air run setblock ~ ~ ~ minecraft:oak_wall_sign[facing=south]
+execute at @e[tag=ZP-Converter-Sign-12] unless block ~-1 ~ ~ air run setblock ~ ~ ~ minecraft:oak_wall_sign[facing=east]
+
 #Set NBT data of sign
 execute at @e[tag=ZP-Converter-Sign-1] run data merge block ~ ~ ~ {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set Database ShopSellTrigger 1"}}',Text2:'{"text":"Sell Sign","clickEvent":{"action":"run_command","value":"tag @s add Seller"},"bold":true,"color":"dark_red"}',Text3:'["",{"text":"[","bold":true,"color":"white"},{"text":"Click Me","bold":true,"color":"dark_purple"},{"text":"]","bold":true,"color":"white"}]'}
 execute at @e[tag=ZP-Converter-Sign-2] run data merge block ~ ~ ~ {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set Database ShopSellTrigger 2"}}',Text2:'{"text":"Sell Sign","clickEvent":{"action":"run_command","value":"tag @s add Seller"},"bold":true,"color":"dark_red"}',Text3:'["",{"text":"[","bold":true,"color":"white"},{"text":"Click Me","bold":true,"color":"dark_purple"},{"text":"]","bold":true,"color":"white"}]'}
@@ -132,3 +139,4 @@ execute at @e[tag=ZP-Converter-Sign-9] run data merge block ~ ~ ~ {Text1:'{"text
 #Number 10 will be used for testing purposes, do not use in other places.
 execute at @e[tag=ZP-Converter-Sign-10] run data merge block ~ ~ ~ {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set Database ShopSellTrigger 10"}}',Text2:'{"text":"Sell Sign","clickEvent":{"action":"run_command","value":"tag @s add Seller"},"bold":true,"color":"dark_red"}',Text3:'["",{"text":"[","bold":true,"color":"white"},{"text":"Click Me","bold":true,"color":"dark_purple"},{"text":"]","bold":true,"color":"white"}]'}
 execute at @e[tag=ZP-Converter-Sign-11] run data merge block ~ ~ ~ {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set Database ShopSellTrigger 11"}}',Text2:'{"text":"Sell Sign","clickEvent":{"action":"run_command","value":"tag @s add Seller"},"bold":true,"color":"dark_red"}',Text3:'["",{"text":"[","bold":true,"color":"white"},{"text":"Click Me","bold":true,"color":"dark_purple"},{"text":"]","bold":true,"color":"white"}]'}
+execute at @e[tag=ZP-Converter-Sign-12] run data merge block ~ ~ ~ {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set Database ShopSellTrigger 12"}}',Text2:'{"text":"Sell Sign","clickEvent":{"action":"run_command","value":"tag @s add Seller"},"bold":true,"color":"dark_red"}',Text3:'["",{"text":"[","bold":true,"color":"white"},{"text":"Click Me","bold":true,"color":"dark_purple"},{"text":"]","bold":true,"color":"white"}]'}
