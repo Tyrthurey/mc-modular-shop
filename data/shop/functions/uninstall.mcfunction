@@ -37,7 +37,7 @@ scoreboard objectives remove ShopBuyTrigger
 scoreboard objectives remove ShopSellTrigger
 
 #remove Shop Stock
-scoreboard objectives remove StockCopperIngot
+scoreboard objectives remove StockCopIngot
 scoreboard objectives remove StockIronIngot
 scoreboard objectives remove StockGoldIngot
 scoreboard objectives remove StockNetherite
