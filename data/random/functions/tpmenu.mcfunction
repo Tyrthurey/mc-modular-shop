@@ -46,90 +46,90 @@ execute as @a[tag=user] at @a[tag=user] run tp @e[tag=placeholder] ^0.0000000000
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test1] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test2] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test4] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test5] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test6] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test8] ^2 ^ ^-2 facing ~ ~ ~
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test2] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test3] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test4] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test4] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test5] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test6] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test7] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test8] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test8] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test1] ^2 ^ ^-2 facing ~ ~ ~
 
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test3] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test4] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test5] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test5] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test6] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test7] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test8] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test1] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test1] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test2] ^2 ^ ^-2 facing ~ ~ ~
 
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test4] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test5] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test6] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test6] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test7] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test8] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test1] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test2] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test2] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test3] ^2 ^ ^-2 facing ~ ~ ~
 
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test5] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test6] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test8] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test1] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test2] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test4] ^2 ^ ^-2 facing ~ ~ ~
 
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test6] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test7] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test8] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test8] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test1] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test2] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test3] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test4] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test4] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test5] ^2 ^ ^-2 facing ~ ~ ~
 
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test7] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test8] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test1] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test1] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test2] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test3] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test4] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test5] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test5] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test6] ^2 ^ ^-2 facing ~ ~ ~
 
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test8] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test1] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test2] ^ ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test2] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test3] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test4] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test5] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test6] ^ ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test6] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test7] ^2 ^ ^-2 facing ~ ~ ~
 
 
 # execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test1] ^2.5 ^0.5 ^ facing ~ ~ ~
 # execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test2] ^2 ^ ^2 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^2 facing ~ ~ ~
+# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^2.5 facing ~ ~ ~
 # execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test4] ^-2 ^ ^2 facing ~ ~ ~
 # execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test5] ^-2.5 ^ ^ facing ~ ~ ~
 # execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test6] ^-2 ^ ^-2 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^-2 facing ~ ~ ~
+# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^-2.5 facing ~ ~ ~
 # execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test8] ^2 ^ ^-2 facing ~ ~ ~
 # execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test9] ^2.5 ^ ^ facing ~ ~ ~
 
