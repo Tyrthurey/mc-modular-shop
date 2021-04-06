@@ -37,7 +37,7 @@ scoreboard objectives add ShopBuyTrigger dummy
 scoreboard objectives add ShopSellTrigger dummy
 
 #Add Shop Stock
-scoreboard objectives add StockCopperIngot dummy
+scoreboard objectives add StockCopIngot dummy
 scoreboard objectives add StockIronIngot dummy
 scoreboard objectives add StockGoldIngot dummy
 scoreboard objectives add StockNetherite dummy

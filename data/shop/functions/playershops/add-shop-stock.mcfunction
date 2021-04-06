@@ -3,13 +3,11 @@
 # Email: tyrthurey@gmail.com
 # Github: https://github.com/Tyrthurey
 
-
 #Stock up
-
 
 #Ingots
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:copper_ingot", Count:16b, Slot:13b}]} run msg @p[tag=ShopOwner] 16 Copper Ingots Accepted - Added to shop stock.
-execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:copper_ingot", Count:16b, Slot:13b}]} run scoreboard players add @p[tag=ShopOwner] StockCopperIngot 16
+execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:copper_ingot", Count:16b, Slot:13b}]} run scoreboard players add @p[tag=ShopOwner] StockCopIngot 16
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:copper_ingot", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]}
 
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:iron_ingot", Count:16b, Slot:13b}]} run msg @p[tag=ShopOwner] 16 Iron Ingots Accepted - Added to shop stock.
@@ -120,19 +118,19 @@ execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:cobb
 
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:tuff", Count:16b, Slot:13b}]} run msg @p[tag=ShopOwner] 16 Tuff Accepted - Added to shop stock.
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:tuff", Count:16b, Slot:13b}]} run scoreboard players add @p[tag=ShopOwner] StockTuff 16
-execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:tuff", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]
+execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:tuff", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]}
 
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:calcite", Count:16b, Slot:13b}]} run msg @p[tag=ShopOwner] 16 Calcite Accepted - Added to shop stock.
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:calcite", Count:16b, Slot:13b}]} run scoreboard players add @p[tag=ShopOwner] StockCalcite 16
-execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:calcite", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]
+execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:calcite", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]}
 
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:glass", Count:16b, Slot:13b}]} run msg @p[tag=ShopOwner] 16 Glass Accepted - Added to shop stock.
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:glass", Count:16b, Slot:13b}]} run scoreboard players add @p[tag=ShopOwner] StockGlass 16
-execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:glass", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]
+execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:glass", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]}
 
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:sand", Count:16b, Slot:13b}]} run msg @p[tag=ShopOwner] 16 Sand Accepted - Added to shop stock.
 execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:sand", Count:16b, Slot:13b}]} run scoreboard players add @p[tag=ShopOwner] StockSand 16
-execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:sand", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]
+execute at @e[tag=PShop-StockUp] if block ~ ~ ~ chest{Items:[{id:"minecraft:sand", Count:16b, Slot:13b}]} run data merge block ~ ~ ~ {Items:[{Slot:13b, id:"air", Count:35b}]}
 
 
 #Rare items
