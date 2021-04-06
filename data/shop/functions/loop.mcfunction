@@ -82,4 +82,4 @@ function shop:playershops/add-shop-stock
 function shop:playershops/pshop-stockup-chest
 
 #Clear the glass someone will steal
-execute at @e[tag=PShop-StockUp] run clear @a[distance=..50] minecraft:light_gray_stained_glass_pane{display:{Name:'{"text":" "}'}}
+execute at @e[tag=PShop-StockUp] run clear @a[distance=..50] minecraft:cyan_stained_glass_pane{display:{Name:'{"text":" "}'}}
