@@ -41,8 +41,8 @@ scoreboard objectives remove StockCopperIngot
 scoreboard objectives remove StockIronIngot
 scoreboard objectives remove StockGoldIngot
 scoreboard objectives remove StockNetherite
-scoreboard objectives remove ShopStockDiamond
-scoreboard objectives remove ShopStockEmerald
+scoreboard objectives remove StockDiamond
+scoreboard objectives remove StockEmerald
 scoreboard objectives remove StockCopperBlock
 scoreboard objectives remove StockIronBlock
 scoreboard objectives remove StockGoldBlock
@@ -50,27 +50,27 @@ scoreboard objectives remove StockNetherBlock
 scoreboard objectives remove StockDiaBlock
 scoreboard objectives remove StockEmBlock
 
-scoreboard objectives remove ShopStockOakLog
+scoreboard objectives remove StockOakLog
 scoreboard objectives remove StockSpruceLog
 scoreboard objectives remove StockBirchLog
 scoreboard objectives remove StockJungleLog
 scoreboard objectives remove StockAcaciaLog
 scoreboard objectives remove StockDarkOakLog
 
-scoreboard objectives remove ShopStockCobble
-scoreboard objectives remove ShopStockDirt
-scoreboard objectives remove ShopStockStone
-scoreboard objectives remove ShopStockDiorite
+scoreboard objectives remove StockCobble
+scoreboard objectives remove StockDirt
+scoreboard objectives remove StockStone
+scoreboard objectives remove StockDiorite
 scoreboard objectives remove StockAndesite
-scoreboard objectives remove ShopStockGravel
+scoreboard objectives remove StockGravel
 scoreboard objectives remove StockDeepslate
 scoreboard objectives remove StockCDeepslate
-scoreboard objectives remove ShopStockTuff
-scoreboard objectives remove ShopStockCalcite
-scoreboard objectives remove ShopStockGlass
-scoreboard objectives remove ShopStockSand
+scoreboard objectives remove StockTuff
+scoreboard objectives remove StockCalcite
+scoreboard objectives remove StockGlass
+scoreboard objectives remove StockSand
 
 scoreboard objectives remove StockDragonEgg
 scoreboard objectives remove StockNetherStar
-scoreboard objectives remove ShopStockBeacon
-scoreboard objectives remove ShopStockTotem
+scoreboard objectives remove StockBeacon
+scoreboard objectives remove StockTotem
