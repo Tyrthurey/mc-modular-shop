@@ -31,16 +31,16 @@ execute if score Database ShopBuyTrigger matches 29 at @e[tag=DEgg-Sign-9] if sc
 execute if score Database ShopBuyTrigger matches 30 at @e[tag=DEgg-Sign-10] if score @p[tag=Buyer] ZPoints matches 1750.. run msg @p[tag=Buyer] Transaction Successful! 1750 ZPoints Taken.
 
 #Give the guy his stuff
-execute if score Database ShopBuyTrigger matches 21 at @e[tag=DEgg-Sign-1] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 22 at @e[tag=DEgg-Sign-2] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 23 at @e[tag=DEgg-Sign-3] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 24 at @e[tag=DEgg-Sign-4] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 25 at @e[tag=DEgg-Sign-5] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 26 at @e[tag=DEgg-Sign-6] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 27 at @e[tag=DEgg-Sign-7] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 28 at @e[tag=DEgg-Sign-8] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 29 at @e[tag=DEgg-Sign-9] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
-execute if score Database ShopBuyTrigger matches 30 at @e[tag=DEgg-Sign-10] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] nether_star 1
+execute if score Database ShopBuyTrigger matches 21 at @e[tag=DEgg-Sign-1] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 22 at @e[tag=DEgg-Sign-2] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 23 at @e[tag=DEgg-Sign-3] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 24 at @e[tag=DEgg-Sign-4] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 25 at @e[tag=DEgg-Sign-5] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 26 at @e[tag=DEgg-Sign-6] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 27 at @e[tag=DEgg-Sign-7] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 28 at @e[tag=DEgg-Sign-8] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 29 at @e[tag=DEgg-Sign-9] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
+execute if score Database ShopBuyTrigger matches 30 at @e[tag=DEgg-Sign-10] if score @p[tag=Buyer] ZPoints matches 1750.. run give @p[tag=Buyer] dragon_egg 1
 
 #Take those points!
 execute if score Database ShopBuyTrigger matches 21 at @e[tag=DEgg-Sign-1] if score @p[tag=Buyer] ZPoints matches 1750.. run scoreboard players remove @p[tag=Buyer] ZPoints 1750
