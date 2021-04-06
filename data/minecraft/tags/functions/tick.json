@@ -1,1 +1,6 @@
-{"values":["shop:loop"]}
+{
+    "values":[
+        "shop:loop",
+        "random:tpmenu"
+    ]
+}
