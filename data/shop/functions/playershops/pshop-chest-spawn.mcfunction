@@ -1,0 +1,1 @@
+give @p silverfish_spawn_egg{display:{Name:'{"text":"Player Shop Stock Up Chest Spawn","color":"gold"}',Lore:['{"text":"Place on floor where you want a shop stock up chest.","color":"gold","bold":true}']},HideFlags:31,Enchantments:[{}],EntityTag:{NoGravity:1b,Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["StockUp-Setup"]}} 1

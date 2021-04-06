@@ -76,3 +76,10 @@ function shop:other/errors
 
 #Create Sell Shop Hopper
 function shop:sellshophoppermaker
+
+#Player Shop
+function shop:playershops/add-shop-stock
+function shop:playershops/pshop-stockup-chest
+
+#Clear the glass someone will steal
+execute at @e[tag=PShop-StockUp] run clear @a[distance=..50] minecraft:light_gray_stained_glass_pane 0 64 {display:{Name:" "}}
