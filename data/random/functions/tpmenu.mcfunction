@@ -1,6 +1,6 @@
 #Tag or no tag
-execute as @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'{"text":"Teleport Key","color":"dark_purple","bold":true,"italic":false}',Lore:['{"text":"With this key you can teleport. Tyr\'s Item Only. No Touchy."}']}}}]}] run tag Tyrthurey add user
-execute unless entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'{"text":"Teleport Key","color":"dark_purple","bold":true,"italic":false}',Lore:['{"text":"With this key you can teleport. Tyr\'s Item Only. No Touchy."}']}}}]}] run tag Tyrthurey remove user
+execute as @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'{"text":"Teleport Key","color":"dark_purple","bold":true,"italic":false}',Lore:['{"text":"With this key you can teleport. Tyr\'s Item Only. No Touchy."}']}}}]}] run tag @s add user
+execute unless entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'{"text":"Teleport Key","color":"dark_purple","bold":true,"italic":false}',Lore:['{"text":"With this key you can teleport. Tyr\'s Item Only. No Touchy."}']}}}]}] run tag @a remove user
 
 #Take-a-stand
 execute if score Placeholder tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder"],CustomName:'{"text":"Test","color":"gold","bold":true,"italic":false}'}
@@ -31,14 +31,14 @@ execute if entity @a[tag=user] run scoreboard players set Test8 tyr.spawn.limit 
 #Slots are counted
 execute as @a[tag=user] store result score @s tyr.slctd.slot run data get entity @s SelectedItemSlot
 #Slots are numbered
-execute if score @p[tag=user] tyr.slctd.slot matches 0 run scoreboard players set Tyrthurey tyr.used.slot 1
-execute if score @p[tag=user] tyr.slctd.slot matches 1 run scoreboard players set Tyrthurey tyr.used.slot 2
-execute if score @p[tag=user] tyr.slctd.slot matches 2 run scoreboard players set Tyrthurey tyr.used.slot 3
-execute if score @p[tag=user] tyr.slctd.slot matches 3 run scoreboard players set Tyrthurey tyr.used.slot 4
-execute if score @p[tag=user] tyr.slctd.slot matches 4 run scoreboard players set Tyrthurey tyr.used.slot 5
-execute if score @p[tag=user] tyr.slctd.slot matches 5 run scoreboard players set Tyrthurey tyr.used.slot 6
-execute if score @p[tag=user] tyr.slctd.slot matches 6 run scoreboard players set Tyrthurey tyr.used.slot 7
-execute if score @p[tag=user] tyr.slctd.slot matches 7 run scoreboard players set Tyrthurey tyr.used.slot 8
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 0 run scoreboard players set Tyrthurey tyr.used.slot 1
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 1 run scoreboard players set Tyrthurey tyr.used.slot 2
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 2 run scoreboard players set Tyrthurey tyr.used.slot 3
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 3 run scoreboard players set Tyrthurey tyr.used.slot 4
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 4 run scoreboard players set Tyrthurey tyr.used.slot 5
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 5 run scoreboard players set Tyrthurey tyr.used.slot 6
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 6 run scoreboard players set Tyrthurey tyr.used.slot 7
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 7 run scoreboard players set Tyrthurey tyr.used.slot 8
 # execute if score @p[tag=user] tyr.slctd.slot matches 8 run scoreboard players set Tyrthurey tyr.used.slot 9
 
 
@@ -169,5 +169,5 @@ execute unless entity @a[tag=user] run scoreboard players set Test8 tyr.spawn.li
 
 
 
-
+# /give @p minecraft:amethyst_shard{display:{Name:'{"text":"Teleport Key","color":"dark_purple","bold":true,"italic":false}',Lore:['{"text":"With this key you can teleport. Tyr\'s Item Only. No Touchy."}']},HideFlags:127,Enchantments:[{}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:1000,Operation:2,UUID:[I;-567206913,1243562866,-1800920549,-1613850143],Slot:"offhand"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1000,Operation:2,UUID:[I;1232452599,-399094619,-2077553911,-716502847],Slot:"offhand"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:1000,Operation:2,UUID:[I;-1153283646,669208156,-1345111890,815015348],Slot:"offhand"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:1000,Operation:2,UUID:[I;1220058273,1308248955,-1275316902,-1997292833]},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:1000,Operation:2,UUID:[I;-1065210052,-1377745878,-1715203126,1858523511]}]} 1
 # {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder"],CustomName:'{"text":"Test","color":"gold","bold":true,"italic":false}'}
