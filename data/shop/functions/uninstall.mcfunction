@@ -37,40 +37,40 @@ scoreboard objectives remove ShopBuyTrigger
 scoreboard objectives remove ShopSellTrigger
 
 #remove Shop Stock
-scoreboard objectives remove ShopStockCopperIngot
-scoreboard objectives remove ShopStockIronIngot
-scoreboard objectives remove ShopStockGoldIngot
-scoreboard objectives remove ShopStockNetherite
+scoreboard objectives remove StockCopperIngot
+scoreboard objectives remove StockIronIngot
+scoreboard objectives remove StockGoldIngot
+scoreboard objectives remove StockNetherite
 scoreboard objectives remove ShopStockDiamond
 scoreboard objectives remove ShopStockEmerald
-scoreboard objectives remove ShopStockCopperBlock
-scoreboard objectives remove ShopStockIronBlock
-scoreboard objectives remove ShopStockGoldBlock
-scoreboard objectives remove ShopStockNetheriteBlock
-scoreboard objectives remove ShopStockDiamondBlock
-scoreboard objectives remove ShopStockEmeraldBlock
+scoreboard objectives remove StockCopperBlock
+scoreboard objectives remove StockIronBlock
+scoreboard objectives remove StockGoldBlock
+scoreboard objectives remove StockNetheriteBlock
+scoreboard objectives remove StockDiamondBlock
+scoreboard objectives remove StockEmeraldBlock
 
 scoreboard objectives remove ShopStockOakLog
-scoreboard objectives remove ShopStockSpruceLog
-scoreboard objectives remove ShopStockBirchLog
-scoreboard objectives remove ShopStockJungleLog
-scoreboard objectives remove ShopStockAcaciaLog
-scoreboard objectives remove ShopStockDarkOakLog
+scoreboard objectives remove StockSpruceLog
+scoreboard objectives remove StockBirchLog
+scoreboard objectives remove StockJungleLog
+scoreboard objectives remove StockAcaciaLog
+scoreboard objectives remove StockDarkOakLog
 
 scoreboard objectives remove ShopStockCobble
 scoreboard objectives remove ShopStockDirt
 scoreboard objectives remove ShopStockStone
 scoreboard objectives remove ShopStockDiorite
-scoreboard objectives remove ShopStockAndesite
+scoreboard objectives remove StockAndesite
 scoreboard objectives remove ShopStockGravel
-scoreboard objectives remove ShopStockDeepslate
-scoreboard objectives remove ShopStockCobbledDeepslate
+scoreboard objectives remove StockDeepslate
+scoreboard objectives remove StockCobbledDeepslate
 scoreboard objectives remove ShopStockTuff
 scoreboard objectives remove ShopStockCalcite
 scoreboard objectives remove ShopStockGlass
 scoreboard objectives remove ShopStockSand
 
-scoreboard objectives remove ShopStockDragonEgg
-scoreboard objectives remove ShopStockNetherStar
+scoreboard objectives remove StockDragonEgg
+scoreboard objectives remove StockNetherStar
 scoreboard objectives remove ShopStockBeacon
 scoreboard objectives remove ShopStockTotem

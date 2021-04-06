@@ -37,43 +37,43 @@ scoreboard objectives add ShopBuyTrigger dummy
 scoreboard objectives add ShopSellTrigger dummy
 
 #Add Shop Stock
-scoreboard objectives add ShopStockCopperIngot dummy
-scoreboard objectives add ShopStockIronIngot dummy
-scoreboard objectives add ShopStockGoldIngot dummy
-scoreboard objectives add ShopStockNetherite dummy
-scoreboard objectives add ShopStockDiamond dummy
-scoreboard objectives add ShopStockEmerald dummy
-scoreboard objectives add ShopStockCopperBlock dummy
-scoreboard objectives add ShopStockIronBlock dummy
-scoreboard objectives add ShopStockGoldBlock dummy
-scoreboard objectives add ShopStockNetheriteBlock dummy
-scoreboard objectives add ShopStockDiamondBlock dummy
-scoreboard objectives add ShopStockEmeraldBlock dummy
+scoreboard objectives add StockCopperIngot dummy
+scoreboard objectives add StockIronIngot dummy
+scoreboard objectives add StockGoldIngot dummy
+scoreboard objectives add StockNetherite dummy
+scoreboard objectives add StockDiamond dummy
+scoreboard objectives add StockEmerald dummy
+scoreboard objectives add StockCopperBlock dummy
+scoreboard objectives add StockIronBlock dummy
+scoreboard objectives add StockGoldBlock dummy
+scoreboard objectives add StockNetherBlock dummy
+scoreboard objectives add StockDiaBlock dummy
+scoreboard objectives add StockEmBlock dummy
 
-scoreboard objectives add ShopStockOakLog dummy
-scoreboard objectives add ShopStockSpruceLog dummy
-scoreboard objectives add ShopStockBirchLog dummy
-scoreboard objectives add ShopStockJungleLog dummy
-scoreboard objectives add ShopStockAcaciaLog dummy
-scoreboard objectives add ShopStockDarkOakLog dummy
+scoreboard objectives add StockOakLog dummy
+scoreboard objectives add StockSpruceLog dummy
+scoreboard objectives add StockBirchLog dummy
+scoreboard objectives add StockJungleLog dummy
+scoreboard objectives add StockAcaciaLog dummy
+scoreboard objectives add StockDarkOakLog dummy
 
-scoreboard objectives add ShopStockCobble dummy
-scoreboard objectives add ShopStockDirt dummy
-scoreboard objectives add ShopStockStone dummy
-scoreboard objectives add ShopStockDiorite dummy
-scoreboard objectives add ShopStockAndesite dummy
-scoreboard objectives add ShopStockGravel dummy
-scoreboard objectives add ShopStockDeepslate dummy
-scoreboard objectives add ShopStockCobbledDeepslate dummy
-scoreboard objectives add ShopStockTuff dummy
-scoreboard objectives add ShopStockCalcite dummy
-scoreboard objectives add ShopStockGlass dummy
-scoreboard objectives add ShopStockSand dummy
+scoreboard objectives add StockCobble dummy
+scoreboard objectives add StockDirt dummy
+scoreboard objectives add StockStone dummy
+scoreboard objectives add StockDiorite dummy
+scoreboard objectives add StockAndesite dummy
+scoreboard objectives add StockGravel dummy
+scoreboard objectives add StockDeepslate dummy
+scoreboard objectives add StockCDeepslate dummy
+scoreboard objectives add StockTuff dummy
+scoreboard objectives add StockCalcite dummy
+scoreboard objectives add StockGlass dummy
+scoreboard objectives add StockSand dummy
 
-scoreboard objectives add ShopStockDragonEgg dummy
-scoreboard objectives add ShopStockNetherStar dummy
-scoreboard objectives add ShopStockBeacon dummy
-scoreboard objectives add ShopStockTotem dummy
+scoreboard objectives add StockDragonEgg dummy
+scoreboard objectives add StockNetherStar dummy
+scoreboard objectives add StockBeacon dummy
+scoreboard objectives add StockTotem dummy
 
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
