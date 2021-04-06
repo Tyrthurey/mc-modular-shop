@@ -46,9 +46,9 @@ scoreboard objectives remove ShopStockEmerald
 scoreboard objectives remove StockCopperBlock
 scoreboard objectives remove StockIronBlock
 scoreboard objectives remove StockGoldBlock
-scoreboard objectives remove StockNetheriteBlock
-scoreboard objectives remove StockDiamondBlock
-scoreboard objectives remove StockEmeraldBlock
+scoreboard objectives remove StockNetherBlock
+scoreboard objectives remove StockDiaBlock
+scoreboard objectives remove StockEmBlock
 
 scoreboard objectives remove ShopStockOakLog
 scoreboard objectives remove StockSpruceLog
@@ -64,7 +64,7 @@ scoreboard objectives remove ShopStockDiorite
 scoreboard objectives remove StockAndesite
 scoreboard objectives remove ShopStockGravel
 scoreboard objectives remove StockDeepslate
-scoreboard objectives remove StockCobbledDeepslate
+scoreboard objectives remove StockCDeepslate
 scoreboard objectives remove ShopStockTuff
 scoreboard objectives remove ShopStockCalcite
 scoreboard objectives remove ShopStockGlass
