@@ -6,16 +6,16 @@
 
 
 # NOTES
-# 
+#
 # If something breaks reset the scoreboard:
 # scoreboard players set Database ShopBuyTrigger 0
-# 
-# 
+#
+#
 # 1-10 is Netherite Buy
 # 11-21 is Nether Star Buy
 # 22-32 is Dragon Egg Buy
-# 
-# 
+#
+#
 # Tags used:
 # - Buyer
 # - ZPoint-C-Creator
@@ -33,7 +33,51 @@
 
 
 scoreboard objectives add ZPoints dummy
-
 scoreboard objectives add ShopBuyTrigger dummy
-
 scoreboard objectives add ShopSellTrigger dummy
+
+#Add Shop Stock
+scoreboard objectives add ShopStockCopperIngot dummy
+scoreboard objectives add ShopStockIronIngot dummy
+scoreboard objectives add ShopStockGoldIngot dummy
+scoreboard objectives add ShopStockNetherite dummy
+scoreboard objectives add ShopStockDiamond dummy
+scoreboard objectives add ShopStockEmerald dummy
+scoreboard objectives add ShopStockCopperBlock dummy
+scoreboard objectives add ShopStockIronBlock dummy
+scoreboard objectives add ShopStockGoldBlock dummy
+scoreboard objectives add ShopStockNetheriteBlock dummy
+scoreboard objectives add ShopStockDiamondBlock dummy
+scoreboard objectives add ShopStockEmeraldBlock dummy
+
+scoreboard objectives add ShopStockOakLog dummy
+scoreboard objectives add ShopStockSpruceLog dummy
+scoreboard objectives add ShopStockBirchLog dummy
+scoreboard objectives add ShopStockJungleLog dummy
+scoreboard objectives add ShopStockAcaciaLog dummy
+scoreboard objectives add ShopStockDarkOakLog dummy
+
+scoreboard objectives add ShopStockCobble dummy
+scoreboard objectives add ShopStockDirt dummy
+scoreboard objectives add ShopStockStone dummy
+scoreboard objectives add ShopStockDiorite dummy
+scoreboard objectives add ShopStockAndesite dummy
+scoreboard objectives add ShopStockGravel dummy
+scoreboard objectives add ShopStockDeepslate dummy
+scoreboard objectives add ShopStockCobbledDeepslate dummy
+scoreboard objectives add ShopStockTuff dummy
+scoreboard objectives add ShopStockCalcite dummy
+scoreboard objectives add ShopStockGlass dummy
+scoreboard objectives add ShopStockSand dummy
+
+scoreboard objectives add ShopStockDragonEgg dummy
+scoreboard objectives add ShopStockNetherStar dummy
+scoreboard objectives add ShopStockBeacon dummy
+scoreboard objectives add ShopStockTotem dummy
+
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
