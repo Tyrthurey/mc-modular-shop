@@ -96,6 +96,17 @@ execute if entity @a[tag=user3] run scoreboard players set Suicide-3 tyr.spawn.l
 # execute if entity @a[tag=user] run scoreboard players set Test9-3 tyr.spawn.limit 1
 
 
+#Nice and un-jumpy!
+effect give @a[tag=user] minecraft:jump_boost 2 250
+effect give @a[tag=user2] minecraft:jump_boost 2 250
+effect give @a[tag=user3] minecraft:jump_boost 2 250
+effect give @a[tag=user4] minecraft:jump_boost 2 250
+effect give @a[tag=user5] minecraft:jump_boost 2 250
+effect give @a[tag=user6] minecraft:jump_boost 2 250
+effect give @a[tag=user7] minecraft:jump_boost 2 250
+effect give @a[tag=user8] minecraft:jump_boost 2 250
+effect give @a[tag=user9] minecraft:jump_boost 2 250
+
 
 #Slots are counted use
 execute as @a[tag=user] store result score @s tyr.slctd.slot run data get entity @s SelectedItemSlot
