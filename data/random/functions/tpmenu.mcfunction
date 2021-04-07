@@ -471,6 +471,18 @@ execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.s
 execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
 
+#Flashy circles
+execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 1 run function random:circles/goldsimplestarcircle
+execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 2 run function random:circles/cyansimplestarcircle
+execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 9 run function random:circles/redsimplestarcircle
+
+execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 1 run function random:circles/goldsimplestarcircle
+execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 2 run function random:circles/cyansimplestarcircle
+execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 9 run function random:circles/redsimplestarcircle
+
+execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 1 run function random:circles/goldsimplestarcircle
+execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 2 run function random:circles/cyansimplestarcircle
+execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 9 run function random:circles/redsimplestarcircle
 
 #Nothing happened ere
 execute unless entity @a[tag=user] run kill @e[tag=spawn]
