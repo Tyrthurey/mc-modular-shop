@@ -22,7 +22,7 @@ execute unless entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-10
 #Take-a-stand user
 execute if score Placeholder tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder"],CustomName:'{"text":"Placeholder","color":"gold","bold":true,"italic":false}'}
 execute if score Spawn tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
-execute if score Shops tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops"],CustomName:'{"text":"Shops","color":"gold","bold":true,"italic":false}'}
+execute if score Shops tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops"],CustomName:'{"text":"Shops","color":"light_blue","bold":true,"italic":false}'}
 execute if score Test3 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
 execute if score Test4 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
 execute if score Test5 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
@@ -421,7 +421,8 @@ execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slo
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 3 run kill @s
+
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 6 run say Test6 command activated!
@@ -438,7 +439,8 @@ execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.s
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 3 run kill @s
+
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
@@ -455,7 +457,8 @@ execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.s
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 3 run kill @s
+
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
