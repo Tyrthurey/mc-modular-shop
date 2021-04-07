@@ -1,10 +1,12 @@
 #Tag or no tag
 execute as @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] unless entity @a[tag=user] run tag @s add user
-# execute unless score Database UserCount matches 1.. if entity @a[tag=user] run scoreboard players set Database UserCount 1
 execute as @a[tag=!user,nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] unless entity @a[tag=user2] run tag @s add user2
-# execute unless score Database UserCount matches 2.. if entity @a[tag=user2] run scoreboard players set Database UserCount 2
 execute as @a[tag=!user,tag=!user2,nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] unless entity @a[tag=user3] run tag @s add user3
-# execute unless score Database UserCount matches 3.. if entity @a[tag=user3] run scoreboard players set Database UserCount 2
+execute as @a[tag=!user,tag=!user2,tag=!user3,nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] unless entity @a[tag=user3] run tag @s add user3
+execute as @a[tag=!user,tag=!user2,tag=!user3,tag=!user4,nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] unless entity @a[tag=user3] run tag @s add user3
+execute as @a[tag=!user,tag=!user2,tag=!user3,tag=!user4,tag=!user5,nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] unless entity @a[tag=user3] run tag @s add user3
+execute as @a[tag=!user,tag=!user2,tag=!user3,tag=!user4,tag=!user5,tag=!user6,nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] unless entity @a[tag=user3] run tag @s add user3
+
 # execute as @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] if entity @a[tag=user] if entity @a[tag=user2] if entity @a[tag=user3] run tag @s add user4
 # execute as @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] if entity @a[tag=user] if entity @a[tag=user2] if entity @a[tag=user3] if entity @a[tag=user4] run tag @s add user5
 # execute as @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Slot:-106b,tag:{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']}}}]}] if entity @a[tag=user] if entity @a[tag=user2] if entity @a[tag=user3] if entity @a[tag=user4] if entity @a[tag=user5] run tag @s add user6
@@ -483,15 +485,15 @@ execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 16.. run score
 
 
 #Flashy circles
-execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
+execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 1 run function random:circles/villagercircle
 execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
 execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
-execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
+execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 1 run function random:circles/villagercircle
 execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
 execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
-execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
+execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 1 run function random:circles/villagercircle
 execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
 execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
