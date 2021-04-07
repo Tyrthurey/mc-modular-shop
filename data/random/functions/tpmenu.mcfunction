@@ -28,7 +28,7 @@ execute if score Test4 tyr.spawn.limit matches 0 at @a[tag=user] run summon armo
 execute if score Test5 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
 execute if score Test6 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
 execute if score Test7 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
-execute if score Test8 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["test8"],CustomName:'{"text":"Test8","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:barrier",Count:1b}],Tags:["suicide"],CustomName:'{"text":"Suicide","color":"gold","bold":true,"italic":false}'}
 # execute if score Test9 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
 
 #Take-a-stand user2
@@ -40,7 +40,7 @@ execute if score Test4-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon a
 execute if score Test5-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-2"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
 execute if score Test6-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-2"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
 execute if score Test7-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-2"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
-execute if score Test8-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["test8-2"],CustomName:'{"text":"Test8","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-2"],CustomName:'{"text":"Suicide","color":"gold","bold":true,"italic":false}'}
 # execute if score Test9 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-2"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
 
 #Take-a-stand user3
@@ -52,7 +52,7 @@ execute if score Test4-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon a
 execute if score Test5-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-3"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
 execute if score Test6-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-3"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
 execute if score Test7-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-3"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
-execute if score Test8-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["test8-3"],CustomName:'{"text":"Test8","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-3"],CustomName:'{"text":"Suicide","color":"gold","bold":true,"italic":false}'}
 # execute if score Test9-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-3"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
 
 
@@ -65,7 +65,7 @@ execute if entity @a[tag=user] run scoreboard players set Test4 tyr.spawn.limit 
 execute if entity @a[tag=user] run scoreboard players set Test5 tyr.spawn.limit 1
 execute if entity @a[tag=user] run scoreboard players set Test6 tyr.spawn.limit 1
 execute if entity @a[tag=user] run scoreboard players set Test7 tyr.spawn.limit 1
-execute if entity @a[tag=user] run scoreboard players set Test8 tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Suicide tyr.spawn.limit 1
 # execute if entity @a[tag=user] run scoreboard players set Test9 tyr.spawn.limit 1
 
 #No more stnads than needed
@@ -77,7 +77,7 @@ execute if entity @a[tag=user2] run scoreboard players set Test4-2 tyr.spawn.lim
 execute if entity @a[tag=user2] run scoreboard players set Test5-2 tyr.spawn.limit 1
 execute if entity @a[tag=user2] run scoreboard players set Test6-2 tyr.spawn.limit 1
 execute if entity @a[tag=user2] run scoreboard players set Test7-2 tyr.spawn.limit 1
-execute if entity @a[tag=user2] run scoreboard players set Test8-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Suicide-2 tyr.spawn.limit 1
 # execute if entity @a[tag=user] run scoreboard players set Test9-2 tyr.spawn.limit 1
 
 #No more stnads than needed
@@ -89,7 +89,7 @@ execute if entity @a[tag=user3] run scoreboard players set Test4-3 tyr.spawn.lim
 execute if entity @a[tag=user3] run scoreboard players set Test5-3 tyr.spawn.limit 1
 execute if entity @a[tag=user3] run scoreboard players set Test6-3 tyr.spawn.limit 1
 execute if entity @a[tag=user3] run scoreboard players set Test7-3 tyr.spawn.limit 1
-execute if entity @a[tag=user3] run scoreboard players set Test8-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Suicide-3 tyr.spawn.limit 1
 # execute if entity @a[tag=user] run scoreboard players set Test9-3 tyr.spawn.limit 1
 
 
@@ -144,7 +144,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test5] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test6] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^-2.5 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=test8] ^2 ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 1 at @e[tag=placeholder] run tp @e[tag=suicide] ^2 ^ ^-2 facing ~ ~ ~
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=shops] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test3] ^2 ^ ^2 facing ~ ~ ~
@@ -152,7 +152,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test5] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test6] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test7] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=test8] ^ ^ ^-2.5 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=suicide] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 2 at @e[tag=placeholder] run tp @e[tag=spawn] ^2 ^ ^-2 facing ~ ~ ~
 
 
@@ -161,7 +161,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test5] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test6] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test7] ^-2.5 ^ ^ facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=test8] ^-2 ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=suicide] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=spawn] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 3 at @e[tag=placeholder] run tp @e[tag=shops] ^2 ^ ^-2 facing ~ ~ ~
 
@@ -170,7 +170,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test5] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test6] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test7] ^-2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test8] ^-2.5 ^ ^ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=suicide] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=spawn] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=shops] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholder] run tp @e[tag=test3] ^2 ^ ^-2 facing ~ ~ ~
@@ -179,7 +179,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 4 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test5] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test6] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^2.5 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test8] ^-2 ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=suicide] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=spawn] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=shops] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^-2.5 facing ~ ~ ~
@@ -188,7 +188,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 5 at @e[tag=placeholde
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test6] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test7] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test8] ^ ^ ^2.5 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=suicide] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=spawn] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=shops] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholder] run tp @e[tag=test3] ^-2 ^ ^-2 facing ~ ~ ~
@@ -197,7 +197,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 6 at @e[tag=placeholde
 
 
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test7] ^2.5 ^0.5 ^ facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test8] ^2 ^ ^2 facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=suicide] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=spawn] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=shops] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test3] ^-2.5 ^ ^ facing ~ ~ ~
@@ -206,7 +206,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 7 at @e[tag=placeholder] run tp @e[tag=test6] ^2 ^ ^-2 facing ~ ~ ~
 
 
-execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test8] ^2.5 ^0.5 ^ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=suicide] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=spawn] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=shops] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test3] ^-2 ^ ^2 facing ~ ~ ~
@@ -223,7 +223,7 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test5] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test6] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test7] ~ ~ ~ facing ~ ~ ~
-execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test8] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=suicide] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test9] ~ ~ ~ facing ~ ~ ~
 
 
@@ -237,7 +237,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 1 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^ ^ ^-2.5 facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^2 ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^2 ^ ^-2 facing ~ ~ ~
 
 execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ^2 ^ ^2 facing ~ ~ ~
@@ -245,7 +245,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^ ^ ^-2.5 facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^2 ^ ^-2 facing ~ ~ ~
 
 
@@ -254,7 +254,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^-2.5 ^ ^ facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^-2 ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^2 ^ ^-2 facing ~ ~ ~
 
@@ -263,7 +263,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^-2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^-2.5 ^ ^ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ^2 ^ ^-2 facing ~ ~ ~
@@ -272,7 +272,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 4 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^ ^ ^2.5 facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^-2 ^ ^2 facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ^ ^ ^-2.5 facing ~ ~ ~
@@ -281,7 +281,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 5 at @e[tag=placehold
 
 execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^ ^ ^2.5 facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ^-2 ^ ^-2 facing ~ ~ ~
@@ -290,7 +290,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 6 at @e[tag=placehold
 
 
 execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^2.5 ^0.5 ^ facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^2 ^ ^2 facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ^-2.5 ^ ^ facing ~ ~ ~
@@ -299,7 +299,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^2 ^ ^-2 facing ~ ~ ~
 
 
-execute as @a[tag=user2] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^2.5 ^0.5 ^ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ^-2 ^ ^2 facing ~ ~ ~
@@ -316,7 +316,7 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ~ ~ ~ facing ~ ~ ~
-execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=suicide-2] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test9-2] ~ ~ ~ facing ~ ~ ~
 
 
@@ -330,7 +330,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 1 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^ ^ ^-2.5 facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^2 ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 1 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^2 ^ ^-2 facing ~ ~ ~
 
 execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ^2 ^ ^2 facing ~ ~ ~
@@ -338,7 +338,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^-2 ^ ^-2 facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^ ^ ^-2.5 facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 2 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^2 ^ ^-2 facing ~ ~ ~
 
 
@@ -347,7 +347,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^-2.5 ^ ^ facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^-2 ^ ^-2 facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 3 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^2 ^ ^-2 facing ~ ~ ~
 
@@ -356,7 +356,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^-2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^-2.5 ^ ^ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^ ^ ^-2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ^2 ^ ^-2 facing ~ ~ ~
@@ -365,7 +365,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 4 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^ ^ ^2.5 facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^-2 ^ ^2 facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^-2 ^ ^-2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ^ ^ ^-2.5 facing ~ ~ ~
@@ -374,7 +374,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 5 at @e[tag=placehold
 
 execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^2 ^ ^2 facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^ ^ ^2.5 facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^-2.5 ^ ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ^-2 ^ ^-2 facing ~ ~ ~
@@ -383,7 +383,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 6 at @e[tag=placehold
 
 
 execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^2.5 ^0.5 ^ facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^2 ^ ^2 facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^-2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ^-2.5 ^ ^ facing ~ ~ ~
@@ -392,7 +392,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 7 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^2 ^ ^-2 facing ~ ~ ~
 
 
-execute as @a[tag=user3] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^2.5 ^0.5 ^ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ^2.5 ^0.5 ^ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^2 ^ ^2 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^ ^ ^2.5 facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ^-2 ^ ^2 facing ~ ~ ~
@@ -409,7 +409,7 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ~ ~ ~ facing ~ ~ ~
-execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=suicide-3] ~ ~ ~ facing ~ ~ ~
 execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test9-3] ~ ~ ~ facing ~ ~ ~
 
 
@@ -426,7 +426,7 @@ execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slo
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 6 run say Test6 command activated!
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 8 run say Suicide command activated!
 
 execute as @a[tag=user] if score @p[tag=user] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
@@ -443,7 +443,7 @@ execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.s
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 8 run say Suicide command activated!
 
 execute as @a[tag=user2] if score @p[tag=user2] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
@@ -460,7 +460,7 @@ execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.s
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 8 run say Suicide command activated!
 
 execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
@@ -474,7 +474,7 @@ execute unless entity @a[tag=user] run kill @e[tag=test4]
 execute unless entity @a[tag=user] run kill @e[tag=test5]
 execute unless entity @a[tag=user] run kill @e[tag=test6]
 execute unless entity @a[tag=user] run kill @e[tag=test7]
-execute unless entity @a[tag=user] run kill @e[tag=test8]
+execute unless entity @a[tag=user] run kill @e[tag=suicide]
 execute unless entity @a[tag=user] run kill @e[tag=placeholder]
 execute unless entity @a[tag=user] run scoreboard players set Placeholder tyr.spawn.limit 0
 execute unless entity @a[tag=user] run scoreboard players set Spawn tyr.spawn.limit 0
@@ -484,7 +484,7 @@ execute unless entity @a[tag=user] run scoreboard players set Test4 tyr.spawn.li
 execute unless entity @a[tag=user] run scoreboard players set Test5 tyr.spawn.limit 0
 execute unless entity @a[tag=user] run scoreboard players set Test6 tyr.spawn.limit 0
 execute unless entity @a[tag=user] run scoreboard players set Test7 tyr.spawn.limit 0
-execute unless entity @a[tag=user] run scoreboard players set Test8 tyr.spawn.limit 0
+execute unless entity @a[tag=user] run scoreboard players set Suicide tyr.spawn.limit 0
 # execute unless entity @a[tag=user] run scoreboard players set Test9 tyr.spawn.limit 0
 
 #Nothing happened ere 2
@@ -495,7 +495,7 @@ execute unless entity @a[tag=user2] run kill @e[tag=test4-2]
 execute unless entity @a[tag=user2] run kill @e[tag=test5-2]
 execute unless entity @a[tag=user2] run kill @e[tag=test6-2]
 execute unless entity @a[tag=user2] run kill @e[tag=test7-2]
-execute unless entity @a[tag=user2] run kill @e[tag=test8-2]
+execute unless entity @a[tag=user2] run kill @e[tag=suicide-2]
 execute unless entity @a[tag=user2] run kill @e[tag=placeholder-2]
 execute unless entity @a[tag=user2] run scoreboard players set Placeholder-2 tyr.spawn.limit 0
 execute unless entity @a[tag=user2] run scoreboard players set Spawn-2 tyr.spawn.limit 0
@@ -505,7 +505,7 @@ execute unless entity @a[tag=user2] run scoreboard players set Test4-2 tyr.spawn
 execute unless entity @a[tag=user2] run scoreboard players set Test5-2 tyr.spawn.limit 0
 execute unless entity @a[tag=user2] run scoreboard players set Test6-2 tyr.spawn.limit 0
 execute unless entity @a[tag=user2] run scoreboard players set Test7-2 tyr.spawn.limit 0
-execute unless entity @a[tag=user2] run scoreboard players set Test8-2 tyr.spawn.limit 0
+execute unless entity @a[tag=user2] run scoreboard players set Suicide-2 tyr.spawn.limit 0
 # execute unless entity @a[tag=user] run scoreboard players set Test9-2 tyr.spawn.limit 0
 
 #Nothing happened ere 3
@@ -516,7 +516,7 @@ execute unless entity @a[tag=user3] run kill @e[tag=test4-3]
 execute unless entity @a[tag=user3] run kill @e[tag=test5-3]
 execute unless entity @a[tag=user3] run kill @e[tag=test6-3]
 execute unless entity @a[tag=user3] run kill @e[tag=test7-3]
-execute unless entity @a[tag=user3] run kill @e[tag=test8-3]
+execute unless entity @a[tag=user3] run kill @e[tag=suicide-3]
 execute unless entity @a[tag=user3] run kill @e[tag=placeholder-3]
 execute unless entity @a[tag=user3] run scoreboard players set Placeholder-3 tyr.spawn.limit 0
 execute unless entity @a[tag=user3] run scoreboard players set Spawn-3 tyr.spawn.limit 0
@@ -526,7 +526,7 @@ execute unless entity @a[tag=user3] run scoreboard players set Test4-3 tyr.spawn
 execute unless entity @a[tag=user3] run scoreboard players set Test5-3 tyr.spawn.limit 0
 execute unless entity @a[tag=user3] run scoreboard players set Test6-3 tyr.spawn.limit 0
 execute unless entity @a[tag=user3] run scoreboard players set Test7-3 tyr.spawn.limit 0
-execute unless entity @a[tag=user3] run scoreboard players set Test8-3 tyr.spawn.limit 0
+execute unless entity @a[tag=user3] run scoreboard players set Suicide-3 tyr.spawn.limit 0
 # execute unless entity @a[tag=user] run scoreboard players set Test9-3 tyr.spawn.limit 0
 
 
