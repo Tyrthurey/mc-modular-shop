@@ -474,7 +474,7 @@ execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 16.. run score
 #Flashy circles
 execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
-execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 8 run function random:circles/flamekillcircle
+execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 8 run function random:circles/redkillcircle
 
 execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 1 run function random:circles/goldsimplestarcircle
 execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 2 run function random:circles/cyansimplestarcircle
