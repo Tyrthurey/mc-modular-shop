@@ -415,52 +415,52 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placehold
 
 
 #Spawn tp
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
 
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 2 run msg @s Teleported to Shops!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 3 run say Test3 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 4 run say Test4 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 4 run say Test4 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 6 run say Test6 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 7 run say Test7 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 8 run say Test8 command activated!
 
 execute as @a[tag=user] if score @p[tag=user] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
 
 
 #Spawn tp user2
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
 
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 2 run msg @s Teleported to Shops!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 3 run say Test3 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 4 run say Test4 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 4 run say Test4 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 7 run say Test7 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 8 run say Test8 command activated!
 
 execute as @a[tag=user2] if score @p[tag=user2] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
 
 
 #Spawn tp user3
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
 
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 2 run msg @s Teleported to Shops!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 3 run say Test3 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 4 run say Test4 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 4 run say Test4 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 7 run say Test7 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 8 run say Test8 command activated!
 
 execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
 
