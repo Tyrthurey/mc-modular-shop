@@ -428,7 +428,7 @@ execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slo
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 7 run say Test7 command activated!
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 8 run say Test8 command activated!
 
-execute as @a[tag=user] if score @p[tag=user] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
+execute as @a[tag=user] if score @p[tag=user] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
 
 #Spawn tp user2
@@ -445,7 +445,7 @@ execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.s
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 7 run say Test7 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 8 run say Test8 command activated!
 
-execute as @a[tag=user2] if score @p[tag=user2] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
+execute as @a[tag=user2] if score @p[tag=user2] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
 
 #Spawn tp user3
@@ -462,7 +462,7 @@ execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.s
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 7 run say Test7 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 8 run say Test8 command activated!
 
-execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
+execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
 
 
