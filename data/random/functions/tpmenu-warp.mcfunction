@@ -8,5 +8,5 @@ execute if score @s tyr.warp.pos.dim matches 0 at @s in minecraft:overworld run 
 execute if score @s tyr.warp.pos.dim matches 1 at @s in minecraft:the_nether run tp @s ~ ~1 ~
 execute if score @s tyr.warp.pos.dim matches 2 at @s in minecraft:the_end run tp @s ~ ~1 ~
 
-tellraw @s ["",{"text":"[Zenysis Homes] ","bold":true,"color":"gold"},{"text":"Teleported successfully.","bold":true,"color":"yellow"}]
+tellraw @s ["",{"text":"[Warp Menu] ","bold":true,"color":"gold"},{"text":"Teleported successfully.","bold":true,"color":"yellow"}]
 scoreboard players set @s tyr.warp 0
