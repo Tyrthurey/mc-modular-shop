@@ -13,10 +13,8 @@ execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slo
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
 
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 6 run function random:tpmenu-setwarp
-execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 6 run say Warp Point Set!
 
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 7 run function random:tpmenu-warp
-execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 7 run say Teleporting!
 
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 8 run kill @s
 
@@ -35,8 +33,10 @@ execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.s
 
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 8 run kill @s
 
@@ -55,8 +55,10 @@ execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.s
 
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 8 run kill @s
 
@@ -75,8 +77,10 @@ execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.s
 
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 8 run kill @s
 
@@ -95,8 +99,10 @@ execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.s
 
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 8 run kill @s
 
@@ -115,8 +121,10 @@ execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.s
 
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 8 run kill @s
 
@@ -135,8 +143,10 @@ execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.s
 
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 8 run kill @s
 
@@ -155,8 +165,10 @@ execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.s
 
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 8 run kill @s
 
@@ -175,8 +187,10 @@ execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.s
 
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 7 run say Test7 command activated!
+
+execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 6 run function random:tpmenu-setwarp
+
+execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 7 run function random:tpmenu-warp
 
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 8 run kill @s
 
