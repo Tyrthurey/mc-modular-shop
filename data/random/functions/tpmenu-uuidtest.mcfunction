@@ -10,6 +10,6 @@ execute as @a[tag=user] store result score @s tyr.uuid run data get entity @s UU
 execute as @a[tag=user] store result score @s tyr.uuid run data get entity @s UUID[2]
 execute as @a[tag=user] store result score @s tyr.uuid run data get entity @s UUID[3]
 
-execute as @a[tag=user] if score @s tyr.uuid = @e[type=minecraft:armor_stand,distance=..3,tag=warppoint,,limit=1] tyr.uuid run say pass
+execute as @a[tag=user] if score @s tyr.uuid = @e[type=minecraft:armor_stand,sort=nearest,tag=warppoint,limit=1] tyr.uuid run say pass
 
 # execute store result score ArmorStand tyr.uuid run data get entity @e[type=minecraft:armor_stand,distance=..2,limit=1] UUID[0]
