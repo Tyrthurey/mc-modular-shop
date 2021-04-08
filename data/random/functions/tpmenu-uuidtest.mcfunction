@@ -1,3 +1,5 @@
+execute at @a[tag=user] run summon armor_stand ~ ~ ~ {Tags:["warppoint"]}
+
 execute store result score @e[type=minecraft:armor_stand,distance=..2,limit=1] tyr.uuid run data get entity @s UUID[0]
 execute store result score @e[type=minecraft:armor_stand,distance=..2,limit=1] tyr.uuid run data get entity @s UUID[1]
 execute store result score @e[type=minecraft:armor_stand,distance=..2,limit=1] tyr.uuid run data get entity @s UUID[2]
