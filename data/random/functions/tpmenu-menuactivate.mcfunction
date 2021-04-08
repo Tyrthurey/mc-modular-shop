@@ -6,7 +6,9 @@ execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slo
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 6 run say Test6 command activated!
@@ -24,7 +26,9 @@ execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.s
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
@@ -42,7 +46,9 @@ execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.s
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
@@ -60,7 +66,9 @@ execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.s
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user4,scores={SneakTime=16}] if score @p[tag=user4] tyr.used.slot matches 6 run say Test6 command activated!
@@ -78,7 +86,9 @@ execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.s
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user5,scores={SneakTime=16}] if score @p[tag=user5] tyr.used.slot matches 6 run say Test6 command activated!
@@ -96,7 +106,9 @@ execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.s
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user6,scores={SneakTime=16}] if score @p[tag=user6] tyr.used.slot matches 6 run say Test6 command activated!
@@ -114,7 +126,9 @@ execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.s
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user7,scores={SneakTime=16}] if score @p[tag=user7] tyr.used.slot matches 6 run say Test6 command activated!
@@ -132,7 +146,9 @@ execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.s
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user8,scores={SneakTime=16}] if score @p[tag=user8] tyr.used.slot matches 6 run say Test6 command activated!
@@ -150,7 +166,9 @@ execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.s
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 3 run execute in minecraft:the_end run tp @s 100 49 0
+execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 3 run msg @s Teleported to the End!
+
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 4 run say Test4 command activated!
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 5 run say Test5 command activated!
 execute as @a[tag=user9,scores={SneakTime=16}] if score @p[tag=user9] tyr.used.slot matches 6 run say Test6 command activated!
