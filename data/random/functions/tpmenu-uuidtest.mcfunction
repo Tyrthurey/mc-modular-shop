@@ -1,3 +1,4 @@
+execute as @e[type=minecraft:armor_stand,tag=warppoint] if score @s tyr.uuid = @a[tag=user,limit=1] tyr.uuid run kill @s
 execute as @a[tag=user] at @a[tag=user] run summon armor_stand ~ ~ ~ {Tags:["warppoint"]}
 
 execute as @a[tag=user] store result score @e[type=minecraft:armor_stand,sort=nearest,tag=warppoint,limit=1] tyr.uuid run data get entity @s UUID[0]
