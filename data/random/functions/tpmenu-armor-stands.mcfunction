@@ -1,0 +1,223 @@
+
+
+
+#score 9 will be the test menu one
+
+#Take-a-stand user
+execute if score Placeholder tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder"],CustomName:'{"text":"Placeholder","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:skeleton_skull",Count:1b}],Tags:["suicide"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9 tyr.spawn.limit matches 0 at @a[tag=user] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user2
+execute if score Placeholder-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-2"],CustomName:'{"text":"Placeholder-2","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-2"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-2"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-2"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-2"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-2"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-2"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-2"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-2 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-2"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9 tyr.spawn.limit matches 0 at @a[tag=user2] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-2"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user3
+execute if score Placeholder-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-3"],CustomName:'{"text":"Placeholder-3","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-3"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-3"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-3"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-3"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-3"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-3"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-3"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-3"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9-3 tyr.spawn.limit matches 0 at @a[tag=user3] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-3"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user4
+execute if score Placeholder-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-4"],CustomName:'{"text":"Placeholder-4","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-4"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-4"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-4"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-4"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-4"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-4"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-4"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-4"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9-4 tyr.spawn.limit matches 0 at @a[tag=user4] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-4"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user5
+execute if score Placeholder-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-5"],CustomName:'{"text":"Placeholder-5","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-5"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-5"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-5"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-5"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-5"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-5"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-5"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-5"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9-5 tyr.spawn.limit matches 0 at @a[tag=user5] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-5"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user6
+execute if score Placeholder-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-6"],CustomName:'{"text":"Placeholder-6","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-6"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-6"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-6"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-6"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-6"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-6"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-6"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-6"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9-6 tyr.spawn.limit matches 0 at @a[tag=user6] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-6"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user7
+execute if score Placeholder-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-7"],CustomName:'{"text":"Placeholder-7","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-7"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-7"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-7"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-7"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-7"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-7"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-7"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-7"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9-7 tyr.spawn.limit matches 0 at @a[tag=user7] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-7"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user8
+execute if score Placeholder-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-8"],CustomName:'{"text":"Placeholder-8","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-8"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-8"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-8"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-8"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-8"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-8"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-8"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-8"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9-8 tyr.spawn.limit matches 0 at @a[tag=user8] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-8"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+#Take-a-stand user9
+execute if score Placeholder-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["placeholder-9"],CustomName:'{"text":"Placeholder-9","color":"gold","bold":true,"italic":false}'}
+execute if score Spawn-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:grass_block",Count:1b}],Tags:["spawn-9"],CustomName:'{"text":"Spawn","color":"gold","bold":true,"italic":false}'}
+execute if score Shops-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],Tags:["shops-9"],CustomName:'{"text":"Shops","color":"aqua","bold":true,"italic":false}'}
+execute if score Test3-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:dirt",Count:1b}],Tags:["test3-9"],CustomName:'{"text":"Test3","color":"gold","bold":true,"italic":false}'}
+execute if score Test4-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:sand",Count:1b}],Tags:["test4-9"],CustomName:'{"text":"Test4","color":"gold","bold":true,"italic":false}'}
+execute if score Test5-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:andesite",Count:1b}],Tags:["test5-9"],CustomName:'{"text":"Test5","color":"gold","bold":true,"italic":false}'}
+execute if score Test6-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:diorite",Count:1b}],Tags:["test6-9"],CustomName:'{"text":"Test6","color":"gold","bold":true,"italic":false}'}
+execute if score Test7-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Tags:["test7-9"],CustomName:'{"text":"Test7","color":"gold","bold":true,"italic":false}'}
+execute if score Suicide-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:stone_bricks",Count:1b}],Tags:["suicide-9"],CustomName:'{"text":"Suicide","color":"red","bold":true,"italic":false}'}
+# execute if score Test9-9 tyr.spawn.limit matches 0 at @a[tag=user9] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:gravel",Count:1b}],Tags:["test9-9"],CustomName:'{"text":"Test9","color":"gold","bold":true,"italic":false}'}
+
+
+
+
+#No more stnads than needed
+execute if entity @a[tag=user] run scoreboard players set Placeholder tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Spawn tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Shops tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Test3 tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Test4 tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Test5 tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Test6 tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Test7 tyr.spawn.limit 1
+execute if entity @a[tag=user] run scoreboard players set Suicide tyr.spawn.limit 1
+# execute if entity @a[tag=user] run scoreboard players set Test9 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user2] run scoreboard players set Placeholder-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Spawn-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Shops-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Test3-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Test4-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Test5-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Test6-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Test7-2 tyr.spawn.limit 1
+execute if entity @a[tag=user2] run scoreboard players set Suicide-2 tyr.spawn.limit 1
+# execute if entity @a[tag=user2] run scoreboard players set Test9-2 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user3] run scoreboard players set Placeholder-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Spawn-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Shops-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Test3-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Test4-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Test5-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Test6-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Test7-3 tyr.spawn.limit 1
+execute if entity @a[tag=user3] run scoreboard players set Suicide-3 tyr.spawn.limit 1
+# execute if entity @a[tag=user3] run scoreboard players set Test9-3 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user4] run scoreboard players set Placeholder-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Spawn-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Shops-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Test3-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Test4-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Test5-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Test6-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Test7-4 tyr.spawn.limit 1
+execute if entity @a[tag=user4] run scoreboard players set Suicide-4 tyr.spawn.limit 1
+# execute if entity @a[tag=user4] run scoreboard players set Test9-4 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user5] run scoreboard players set Placeholder-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Spawn-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Shops-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Test3-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Test4-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Test5-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Test6-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Test7-5 tyr.spawn.limit 1
+execute if entity @a[tag=user5] run scoreboard players set Suicide-5 tyr.spawn.limit 1
+# execute if entity @a[tag=user5] run scoreboard players set Test9-5 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user6] run scoreboard players set Placeholder-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Spawn-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Shops-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Test3-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Test4-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Test5-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Test6-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Test7-6 tyr.spawn.limit 1
+execute if entity @a[tag=user6] run scoreboard players set Suicide-6 tyr.spawn.limit 1
+# execute if entity @a[tag=user6] run scoreboard players set Test9-6 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user7] run scoreboard players set Placeholder-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Spawn-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Shops-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Test3-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Test4-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Test5-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Test6-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Test7-7 tyr.spawn.limit 1
+execute if entity @a[tag=user7] run scoreboard players set Suicide-7 tyr.spawn.limit 1
+# execute if entity @a[tag=user7] run scoreboard players set Test9-7 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user8] run scoreboard players set Placeholder-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Spawn-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Shops-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Test3-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Test4-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Test5-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Test6-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Test7-8 tyr.spawn.limit 1
+execute if entity @a[tag=user8] run scoreboard players set Suicide-8 tyr.spawn.limit 1
+# execute if entity @a[tag=user8] run scoreboard players set Test9-8 tyr.spawn.limit 1
+
+#No more stnads than needed
+execute if entity @a[tag=user9] run scoreboard players set Placeholder-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Spawn-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Shops-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Test3-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Test4-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Test5-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Test6-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Test7-9 tyr.spawn.limit 1
+execute if entity @a[tag=user9] run scoreboard players set Suicide-9 tyr.spawn.limit 1
+# execute if entity @a[tag=user9] run scoreboard players set Test9-9 tyr.spawn.limit 1
