@@ -51,38 +51,47 @@ function random:tpmenu-menuactivate
 #Flashy circles
 execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user] as @a[tag=user] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user2] as @a[tag=user2] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user3] as @a[tag=user3] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user4] as @a[tag=user4] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user4] as @a[tag=user4] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user4] as @a[tag=user4] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user4] as @a[tag=user4] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user5] as @a[tag=user5] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user5] as @a[tag=user5] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user5] as @a[tag=user5] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user5] as @a[tag=user5] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user6] as @a[tag=user6] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user6] as @a[tag=user6] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user6] as @a[tag=user6] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user6] as @a[tag=user6] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user7] as @a[tag=user7] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user7] as @a[tag=user7] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user7] as @a[tag=user7] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user7] as @a[tag=user7] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user8] as @a[tag=user8] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user8] as @a[tag=user8] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user8] as @a[tag=user8] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user8] as @a[tag=user8] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 execute at @a[tag=user9] as @a[tag=user9] if score @s tyr.used.slot matches 1 run function random:circles/goldcircle
 execute at @a[tag=user9] as @a[tag=user9] if score @s tyr.used.slot matches 2 run function random:circles/cyancircle
+execute at @a[tag=user9] as @a[tag=user9] if score @s tyr.used.slot matches 3 run function random:circles/purplecircle
 execute at @a[tag=user9] as @a[tag=user9] if score @s tyr.used.slot matches 8 run function random:circles/flamecircle
 
 
