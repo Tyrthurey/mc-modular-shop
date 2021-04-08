@@ -26,15 +26,15 @@ function random:tpmenu-armor-stands
 
 
 #Nice and un-jumpy!
-effect give @a[tag=user] minecraft:jump_boost 2 250
-effect give @a[tag=user2] minecraft:jump_boost 2 250
-effect give @a[tag=user3] minecraft:jump_boost 2 250
-effect give @a[tag=user4] minecraft:jump_boost 2 250
-effect give @a[tag=user5] minecraft:jump_boost 2 250
-effect give @a[tag=user6] minecraft:jump_boost 2 250
-effect give @a[tag=user7] minecraft:jump_boost 2 250
-effect give @a[tag=user8] minecraft:jump_boost 2 250
-effect give @a[tag=user9] minecraft:jump_boost 2 250
+effect give @a[tag=user] minecraft:jump_boost 2 250 false
+effect give @a[tag=user2] minecraft:jump_boost 2 250 false
+effect give @a[tag=user3] minecraft:jump_boost 2 250 false
+effect give @a[tag=user4] minecraft:jump_boost 2 250 false
+effect give @a[tag=user5] minecraft:jump_boost 2 250 false
+effect give @a[tag=user6] minecraft:jump_boost 2 250 false
+effect give @a[tag=user7] minecraft:jump_boost 2 250 false
+effect give @a[tag=user8] minecraft:jump_boost 2 250 false
+effect give @a[tag=user9] minecraft:jump_boost 2 250 false
 
 
 #Slots!
