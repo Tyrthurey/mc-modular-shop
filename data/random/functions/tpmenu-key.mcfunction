@@ -1,1 +1,0 @@
-give @p minecraft:amethyst_shard{display:{Name:'[{"text":"Control Key","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"With this, you can access the control menu. Admins Only. Mortals No Touchy.","italic":false,"color":"gold"}]']},Enchantments:[{}],HideFlags:63} 1
