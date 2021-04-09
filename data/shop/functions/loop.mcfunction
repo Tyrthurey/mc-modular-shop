@@ -43,8 +43,6 @@ function shop:signs/dragonegg-sign
 function shop:signs/sell-sign
 
 
-#Redstoner Blocker (random and prolly unneeded)
-function random:redstoner-blocker
 
 
 #Buy from signs functions
