@@ -32,7 +32,7 @@
 # - Red-Block-[1 to 10]        (May not be used, maybe delete or leave for something else, its still a good module)
 
 
-scoreboard objectives remove ZPoints
+scoreboard objectives remove Starz
 scoreboard objectives remove ShopBuyTrigger
 scoreboard objectives remove ShopSellTrigger
 

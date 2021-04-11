@@ -53,9 +53,9 @@ function shop:buy/buy-dragonegg
 
 #Sell hopper
 # function shop:sell/sell-all-hopper #(Unneeded)
-function shop:sell/sell-netherstar
-function shop:sell/sell-netherite
-function shop:sell/sell-dragonegg
+# function shop:sell/sell-netherstar
+# function shop:sell/sell-netherite
+# function shop:sell/sell-dragonegg
 
 
 #Sell Sign
@@ -69,11 +69,11 @@ function shop:sell/seller-tag-remove
 
 
 #Errors
-function shop:other/errors
+# function shop:other/errors
 
 
 #Create Sell Shop Hopper
-function shop:sellshophoppermaker
+# function shop:sellshophoppermaker
 
 #Player Shop
 function shop:playershops/add-shop-stock

@@ -6,16 +6,16 @@
 
 
 # NOTES
-# 
+#
 # If something breaks reset the scoreboard:
 # scoreboard players set Database ShopBuyTrigger 0
-# 
-# 
+#
+#
 # 1-10 is Netherite Buy
 # 11-21 is Nether Star Buy
 # 22-32 is Dragon Egg Buy
-# 
-# 
+#
+#
 # Tags used:
 # - Buyer
 # - ZPoint-C-Creator
@@ -34,9 +34,9 @@
 #Sell netherite - Player shop 1
 
 execute if score {Shop owner IGN} ShopStockNetherite matches ..0 if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] run msg @p[tag=Buyer] Shop out of stock!
-execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] ZPoints matches ..499 run msg @p[tag=Buyer] Not enough ZPoints!
-execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] ZPoints matches 500.. run msg @p[tag=Buyer] Transaction Successful! 500 ZPoints Taken.
-execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] ZPoints matches 500.. run give @p[tag=Buyer] netherite_ingot 1
-execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] ZPoints matches 500.. run scoreboard players remove @p[tag=Buyer] ZPoints 500
+execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] Starz matches ..499 run msg @p[tag=Buyer] Not enough Starz!
+execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] Starz matches 500.. run msg @p[tag=Buyer] Transaction Successful! 500 Starz Taken.
+execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] Starz matches 500.. run give @p[tag=Buyer] netherite_ingot 1
+execute if score {Shop owner IGN} ShopStockNetherite matches 1.. if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] if score @p[tag=Buyer] Starz matches 500.. run scoreboard players remove @p[tag=Buyer] Starz 500
 execute if score Database PlayerBuyTrigger matches 1 at @e[tag={Player Shop Tag}] run tag @p[tag=Buyer] remove Buyer
 execute if score Database PlayerBuyTrigger matches 1 run scoreboard players set Database PlayerBuyTrigger 0

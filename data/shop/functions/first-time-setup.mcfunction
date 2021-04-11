@@ -32,7 +32,7 @@
 # - Red-Block-[1 to 10]        (May not be used, maybe delete or leave for something else, its still a good module)
 
 
-scoreboard objectives add ZPoints dummy
+scoreboard objectives add Starz dummy
 scoreboard objectives add ShopBuyTrigger dummy
 scoreboard objectives add ShopSellTrigger dummy
 

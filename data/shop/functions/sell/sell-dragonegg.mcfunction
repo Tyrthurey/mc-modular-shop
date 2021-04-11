@@ -6,16 +6,16 @@
 
 
 # NOTES
-# 
+#
 # If something breaks reset the scoreboard:
 # scoreboard players set Database ShopBuyTrigger 0
-# 
-# 
+#
+#
 # 1-10 is Netherite Buy
 # 11-21 is Nether Star Buy
 # 22-32 is Dragon Egg Buy
-# 
-# 
+#
+#
 # Tags used:
 # - Buyer
 # - ZPoint-C-Creator
@@ -33,5 +33,5 @@
 
 #Sell Dragon Egg
 execute at @e[tag=ZPoint-Converter] if block ~ ~ ~ hopper{Items:[{id:"minecraft:dragon_egg", Count:1b, Slot:0b}]} run msg @p 1 Dragon Egg Accepted - 1750 Points Added
-execute at @e[tag=ZPoint-Converter] if block ~ ~ ~ hopper{Items:[{id:"minecraft:dragon_egg", Count:1b, Slot:0b}]} run scoreboard players add @p ZPoints 1750
+execute at @e[tag=ZPoint-Converter] if block ~ ~ ~ hopper{Items:[{id:"minecraft:dragon_egg", Count:1b, Slot:0b}]} run scoreboard players add @p Starz 1750
 execute at @e[tag=ZPoint-Converter] if block ~ ~ ~ hopper{Items:[{id:"minecraft:dragon_egg", Count:1b, Slot:0b}]} run data merge block ~ ~ ~ {Items:[{Slot:0b, id:"air", Count:35b}]}
